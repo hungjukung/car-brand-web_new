@@ -36,7 +36,7 @@ CARS = [
         "generation": 9, "year_start": 2024, "year_end": None,
         "body_type": BodyType.sedan,
         "description": "豐田旗艦房車，寬敞舒適，搭載2.5L油電混合動力系統，兼具省油與動力。",
-        "hero_image_url": "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=800",
+        "hero_image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Toyota_Camry_%28XV70%29_SE_%282%29%2C_United_States.jpg",
         "specs": [
             {
                 "trim_name": "2.5G", "displacement": 2.5, "horsepower": 178, "torque": 221,
@@ -61,7 +61,7 @@ CARS = [
         "generation": 2, "year_start": 2022, "year_end": None,
         "body_type": BodyType.sports,
         "description": "純正後驅跑車，搭載2.4L水平對臥引擎，回歸純粹駕駛樂趣。",
-        "hero_image_url": "https://images.unsplash.com/photo-1541878117466-0e3000a65864?w=800",
+        "hero_image_url": "https://upload.wikimedia.org/wikipedia/commons/5/50/2022_Toyota_GR86_Premium_in_Halo%2C_Front_Right%2C_04-10-2022.jpg",
         "specs": [
             {
                 "trim_name": "2.4 Standard", "displacement": 2.4, "horsepower": 234, "torque": 250,
@@ -88,7 +88,7 @@ CARS = [
         "generation": 5, "year_start": 2019, "year_end": None,
         "body_type": BodyType.suv,
         "description": "全球熱銷SUV，多動力選擇，兼顧日常通勤與越野能力。",
-        "hero_image_url": "https://images.unsplash.com/photo-1632137924251-fcea5ff46035?w=800",
+        "hero_image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/2019_Toyota_RAV4_Adventure_%28United_States%29_front_view_%28cropped%29.jpg",
         "specs": [
             {
                 "trim_name": "2.0 汽油", "displacement": 2.0, "horsepower": 173, "torque": 203,
@@ -113,7 +113,7 @@ CARS = [
         "generation": 16, "year_start": 2023, "year_end": None,
         "body_type": BodyType.sedan,
         "description": "革命性跨界旗艦，融合轎車優雅與SUV高坐姿，油電四驅系統。",
-        "hero_image_url": "https://images.pexels.com/photos/18362808/pexels-photo-18362808/free-photo-of-white-toyota-crown.jpeg?auto=compress&cs=tinysrgb&w=800",
+        "hero_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/90/2023_Denver_Auto_Show_Toyota_Crown_front_quarter.jpg",
         "specs": [
             {
                 "trim_name": "2.5 Hybrid AWD", "displacement": 2.5, "horsepower": 236, "torque": 221,
@@ -131,7 +131,7 @@ CARS = [
         "generation": 11, "year_start": 2022, "year_end": None,
         "body_type": BodyType.sedan,
         "description": "Honda全球熱銷房車，第11代更具運動氣息，1.5T渦輪引擎強勁有力。",
-        "hero_image_url": "https://images.unsplash.com/photo-1742445129873-ccd0af96c60f?w=800",
+        "hero_image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b5/2022_Honda_Civic_Touring_in_Lunar_Silver_Metallic%2C_Front_Left%2C_05-10-2022.jpg",
         "specs": [
             {
                 "trim_name": "1.5 VTEC Turbo", "displacement": 1.5, "horsepower": 182, "torque": 240,
@@ -149,7 +149,7 @@ CARS = [
         "generation": 6, "year_start": 2023, "year_end": None,
         "body_type": BodyType.suv,
         "description": "Honda人氣跨界休旅，第六代更加寬敞，搭載e:HEV油電系統。",
-        "hero_image_url": "https://images.unsplash.com/photo-1681697390363-1142eb46b76d?w=800",
+        "hero_image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/2023_Honda_CR-V_EX-L_in_Urban_Grey_Pearl%2C_Front_Left%2C_04-07-2023.jpg",
         "specs": [
             {
                 "trim_name": "1.5T", "displacement": 1.5, "horsepower": 192, "torque": 243,
@@ -175,7 +175,7 @@ CARS = [
         "generation": 7, "year_start": 2022, "year_end": None,
         "body_type": BodyType.sedan,
         "description": "BMW駕駛樂趣的最佳代言，後驅平衡完美，2.0T引擎動力充沛。",
-        "hero_image_url": "https://images.unsplash.com/photo-1558486137-0634dd211be0?w=800",
+        "hero_image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2f/BMW_G20_LCI_320i_Alpine_White_%281%29.jpg",
         "specs": [
             {
                 "trim_name": "320i", "displacement": 2.0, "horsepower": 184, "torque": 300,
@@ -211,7 +211,7 @@ CARS = [
         "generation": 8, "year_start": 2024, "year_end": None,
         "body_type": BodyType.sedan,
         "description": "全新第八代5系列，大幅進化科技配備，更長軸距帶來更寬敞後座。",
-        "hero_image_url": "https://images.unsplash.com/photo-1552234816-0ea7b995a55c?w=800",
+        "hero_image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/BMW_G60_530i_xDrive_Alpine_White_%281%29.jpg",
         "specs": [
             {
                 "trim_name": "520i", "displacement": 2.0, "horsepower": 208, "torque": 330,
@@ -240,7 +240,7 @@ CARS = [
         "generation": 6, "year_start": 2022, "year_end": None,
         "body_type": BodyType.sedan,
         "description": "賓士中階旗艦，W206世代再次進化，豪華科技並重，MBUX升級更聰明。",
-        "hero_image_url": "https://images.unsplash.com/photo-1604755940678-ffbf0c1fcc37?w=800",
+        "hero_image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Mercedes-Benz_C_200_AVANTGARDE_%28W206%29_front.jpg",
         "specs": [
             {
                 "trim_name": "C200", "displacement": 1.5, "horsepower": 204, "torque": 300,
@@ -269,7 +269,7 @@ CARS = [
         "generation": 2, "year_start": 2023, "year_end": None,
         "body_type": BodyType.suv,
         "description": "魂動設計美學代表作，精緻豪華內裝，2.5T引擎強勁性能。",
-        "hero_image_url": "https://images.unsplash.com/photo-1643142311296-304953706775?w=800",
+        "hero_image_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/2018_Mazda_CX-5_%28KF%29_GT_AWD_wagon_%282018-09-28%29_01.jpg",
         "specs": [
             {
                 "trim_name": "2.0 天悅型", "displacement": 2.0, "horsepower": 165, "torque": 213,
@@ -296,7 +296,7 @@ CARS = [
         "generation": 4, "year_start": 2019, "year_end": None,
         "body_type": BodyType.sedan,
         "description": "工藝品般的緊湊房車，2.5L自然進氣搭載創馳藍天技術，油耗優異。",
-        "hero_image_url": "https://images.unsplash.com/photo-1495364152808-2676f284aac8?w=800",
+        "hero_image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Mazda3_SEDAN_20S_L_Package_2WD_%285BA-BPFP%29_front.jpg",
         "specs": [
             {
                 "trim_name": "2.0 尊榮型", "displacement": 2.0, "horsepower": 165, "torque": 213,
@@ -315,7 +315,7 @@ CARS = [
         "generation": 4, "year_start": 2021, "year_end": None,
         "body_type": BodyType.suv,
         "description": "大膽參數化設計，引領韓系SUV美學革命，HTRAC全輪驅動系統。",
-        "hero_image_url": "https://images.unsplash.com/photo-1575090536203-2a6193126514?w=800",
+        "hero_image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Hyundai_Tucson_Inspiration_1.6T_NX4_Amazon_Gray_Metallic_%282%29.jpg",
         "specs": [
             {
                 "trim_name": "1.6T 旗艦版", "displacement": 1.6, "horsepower": 180, "torque": 265,
@@ -334,7 +334,7 @@ CARS = [
         "generation": 7, "year_start": 2024, "year_end": None,
         "body_type": BodyType.coupe,
         "description": "美式肌肉車傳奇，第七代野馬搭載5.0V8引擎，傳統V8轟鳴永不過時。",
-        "hero_image_url": "https://images.unsplash.com/photo-1567284575269-d4be568f1072?w=800",
+        "hero_image_url": "https://upload.wikimedia.org/wikipedia/commons/7/72/2024_Ford_Mustang_GT%2C_Kingsville%2C_Ontario%2C_2025-06-29.jpg",
         "specs": [
             {
                 "trim_name": "2.3 EcoBoost", "displacement": 2.3, "horsepower": 315, "torque": 448,
@@ -362,7 +362,7 @@ CARS = [
         "generation": 5, "year_start": 2022, "year_end": None,
         "body_type": BodyType.sedan,
         "description": "拉力賽道的街道版，2.4T水平對臥引擎搭配對稱式AWD，操控樂趣一流。",
-        "hero_image_url": "https://images.unsplash.com/photo-1572471275423-a6e40c020a46?w=800",
+        "hero_image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d0/2022_Subaru_WRX_Sport-Tech_in_World_Rally_Blue_Pearl%2C_Front_Left%2C_06-03-2022.jpg",
         "specs": [
             {
                 "trim_name": "2.4T", "displacement": 2.4, "horsepower": 271, "torque": 350,
@@ -381,7 +381,7 @@ CARS = [
         "generation": 1, "year_start": 2017, "year_end": None,
         "body_type": BodyType.coupe,
         "description": "凌志旗艦跑車，5.0L自然進氣V8引擎，車身設計令人窒息的美麗。",
-        "hero_image_url": "https://images.unsplash.com/photo-1577496549771-036979fd95e2?w=800",
+        "hero_image_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Lexus_LC500_Coup%C3%A9_in_White_Nova_Glass_Flake%2C_front_right.jpg",
         "specs": [
             {
                 "trim_name": "5.0 V8", "displacement": 5.0, "horsepower": 477, "torque": 540,

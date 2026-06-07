@@ -56,7 +56,8 @@ async def list_cars(
             year_end=car.year_end,
             body_type=car.body_type,
             hero_image_url=photo_service.get_car_photo_url(
-                car.brand.name_en, car.model_en, car.year_start
+                car.brand.name_en, car.model_en, car.year_start,
+                fallback_url=car.hero_image_url,
             ),
             min_price=min(prices) if prices else None,
             max_price=max(prices) if prices else None,
@@ -86,7 +87,8 @@ async def get_car_detail(
 
     result = CarGenerationOut.model_validate(car)
     result.hero_image_url = photo_service.get_car_photo_url(
-        car.brand.name_en, car.model_en, car.year_start
+        car.brand.name_en, car.model_en, car.year_start,
+        fallback_url=car.hero_image_url,
     )
     await cache_service.set_cached(redis, cache_key, result.model_dump(), ttl=86400)
     return result
@@ -104,7 +106,8 @@ async def get_brand_cars(
     for car in cars:
         item = CarGenerationOut.model_validate(car)
         item.hero_image_url = photo_service.get_car_photo_url(
-            car.brand.name_en, car.model_en, car.year_start
+            car.brand.name_en, car.model_en, car.year_start,
+            fallback_url=car.hero_image_url,
         )
         results.append(item)
     return results
